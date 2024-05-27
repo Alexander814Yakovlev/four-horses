@@ -12,4 +12,5 @@
 ---
 
 [Ссылка на Github-pages](https://alexander814yakovlev.github.io/four-horses/ "Готовый проект")
+
 ![screenshot](/img/myPage.png)
