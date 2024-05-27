@@ -1,0 +1,344 @@
+@media screen and (max-width:1360px) {
+
+    .steps__grid_image {
+        bottom: 1rem;
+        right: -2rem;
+        overflow: hidden;
+    }
+
+    .steps__grid_image>img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .card_7>.steps__grid_card-text {
+        max-width: 330px;
+    }
+
+    .participant__card {
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .details__tab_row-key,
+    .details__tab_row-value {
+        margin-bottom: 16px;
+    }
+
+    .steps__grid {
+        margin-top: 200px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card_6 {
+        grid-column: span 2;
+    }
+
+    .card_6>.steps__grid_card-text,
+    .card_7>.steps__grid_card-text {
+        max-width: 100%;
+    }
+
+    .steps__grid_image {
+        top: -200px;
+        left: 0;
+    }
+
+    .steps__grid_image>img {
+        max-width: 335px;
+        max-height: 182px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 36px !important;
+    }
+
+    h3,
+    h3>span,
+    .support__text_bottom {
+        font-size: 28px !important;
+    }
+
+    .container {
+        padding: 0 19px;
+    }
+
+    .header {
+        background: url('../img/main_mobile.png') no-repeat 20%;
+        background-size: cover;
+        min-height: 812px;
+
+    }
+
+    .header__card {
+        max-width: 100%;
+    }
+
+    .header__card_title {
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    .header__card_buttons {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .light {
+        background-color: #fff;
+        border: none;
+    }
+
+    .support__inner {
+        grid-template-areas: "text" "image";
+    }
+
+    .support__image>img {
+        width: 100%;
+    }
+
+    .details__inner {
+        padding-top: 36px;
+        flex-direction: column;
+    }
+
+    .details__image,
+    .details__title {
+        width: 100%;
+    }
+
+    .details__tab_row {
+        grid-template-columns: none;
+    }
+
+    .details__tab_row-key {
+        margin-bottom: 0;
+    }
+
+    .details__tab_row-value {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .steps__grid {
+        margin-top: 0;
+        padding-top: 200px;
+        display: flex;
+        width: 100%;
+        overflow-x: clip;
+    }
+
+    .steps__mobile_flex {
+        display: flex;
+        width: 96vw;
+    }
+
+    .steps__mobile_flex>div {
+        min-width: 100%;
+        min-height: 300px;
+        flex-grow: 1;
+    }
+
+    .steps__mobile_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .steps__grid_card-text {
+        font-size: 18px;
+    }
+
+    .steps__grid_image {
+        top: 80px;
+        left: 0;
+    }
+
+    .steps__mobile_buttons {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 10px;
+    }
+
+    .steps__mobile_dots {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .mobile_dot {
+        height: 10px;
+        width: 10px;
+        background-color: #d9d9d9;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .mobile_dot-active {
+        background-color: #313131;
+    }
+
+    .participants__pagination {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .participant__card {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        margin-bottom: -38px;
+    }
+
+    .header__logo {
+        padding-top: 20px;
+    }
+
+    .header__logo_img {
+        height: 27px;
+    }
+
+    .header__logo_text {
+        margin-top: -3px;
+        margin-left: -10px;
+    }
+
+    .header__logo_text>p {
+        font-size: 14.42px;
+        line-height: 108%;
+    }
+
+    .header__card {
+        padding-top: 42px;
+    }
+
+    .header__card_text {
+        text-align: left !important;
+    }
+
+    .header__card_buttons {
+        padding-top: 10px;
+        gap: 14px;
+    }
+
+    .button {
+        height: 47px;
+        font-size: 16px;
+        padding: 0 42px;
+    }
+
+    .ticker {
+        height: 38px;
+    }
+
+    .ticker__item {
+        font-size: 16px;
+    }
+
+    .support__inner {
+        margin-top: 22px;
+        gap: 24px;
+    }
+
+    .support__text_bottom {
+        margin-top: 0;
+    }
+
+    .details__image {
+        min-height: unset;
+        width: 335px;
+        height: 402px;
+    }
+
+    .details__tab {
+        margin-bottom: 12px;
+    }
+
+    .details__tab_row {
+        margin-right: 0;
+    }
+
+    .details__tab_row-key,
+    .details__tab_row-value {
+        padding: 0;
+        margin: 0;
+        height: 42px;
+    }
+
+    .steps {
+        margin: 120px 0 115px;
+    }
+
+    .steps__title {
+        line-height: 110%;
+        margin-bottom: -60px;
+    }
+
+    .steps__subtitle {
+        margin-top: 11px;
+        max-width: unset;
+        font-size: 18px;
+    }
+
+    .steps__mobile_buttons {
+        gap: 18px;
+    }
+
+    .slider__button {
+        height: 36px;
+        width: 36px;
+    }
+
+    .steps__mobile_dots {
+        gap: 6px;
+    }
+
+    .participants {
+        padding-bottom: 100px;
+    }
+
+    .participants__title {
+        font-weight: 600;
+    }
+
+    .participants__wrapper {
+        margin-top: 40px;
+    }
+
+    .participant__card {
+        padding: 0 24px;
+    }
+
+    .participant__card_image {
+        width: 244px;
+    }
+
+    .participant__card_title {
+        font-size: 24px !important;
+    }
+
+    .participants__pagination {
+        margin-top: 19px;
+    }
+}

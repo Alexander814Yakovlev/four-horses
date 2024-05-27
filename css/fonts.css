@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Golos;
+    src: url('../fonts/GolosText-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url('../fonts/Merriweather-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url('../fonts/Merriweather-Bold.ttf');
+    font-weight: 700;
+}
