@@ -2,7 +2,7 @@
 const logo = document.querySelector(".header__logo_img")
 for (let i = 0; i < 4; i++) {
     const horse = document.createElement("img")
-    horse.src = '../img/logo_horse.svg'
+    horse.src = 'img/logo_horse.svg'
     logo.appendChild(horse)
 }
 
@@ -88,7 +88,7 @@ const mergeCells = () => {
 
     const prevButton = document.createElement("button")
     const pervChevron = document.createElement("img")
-    pervChevron.src = '../img/chevron_left.svg'
+    pervChevron.src = 'img/chevron_left.svg'
     prevButton.className = 'slider__button'
     prevButton.appendChild(pervChevron)
     prevButton.disabled = counter === 1
@@ -100,7 +100,7 @@ const mergeCells = () => {
 
     const nextButton = document.createElement("button")
     const nextChevron = document.createElement("img")
-    nextChevron.src = '../img/chevron_right.svg'
+    nextChevron.src = 'img/chevron_right.svg'
     nextButton.className = 'slider__button'
     nextButton.appendChild(nextChevron)
     nextButton.disabled = counter === 5
@@ -212,7 +212,7 @@ const createCard = (i) => {
     card.className = "participant__card"
     card.dataset.index = i + 1
     const image = document.createElement("img")
-    image.src = "../img/participant.png"
+    image.src = "img/participant.png"
     image.className = "participant__card_image"
     const name = document.createElement("h3")
     name.textContent = participants[i].name
